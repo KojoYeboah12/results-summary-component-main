@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+div{
+  margin: 0px;
+}
+body{
+  padding-top: 130px;
+}
+.main{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.main-container{
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  justify-content: center;
+  margin-bottom: 30px;
+  border-radius: 22px;
+  border: none;
+  box-shadow: 10px 10px 70px rgba(235, 241, 255, 150);
+}
+.second-container{
+  height: 350px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  border-radius: 22px;
+  margin-left: -1px;
+}
+.result-container{
+  height: 350px;
+  width: 250px;
+  background-image: linear-gradient(to top,hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  font-family: hanken, arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 22px;
+}
+.result{
+  font-family:Hanken Grotesk;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 20px 0px 20px 0px;
+  font-size: 18px;
+}
+.view-result{
+  margin-bottom: 15px;
+}
+.result-profile{
+  height: 130px;
+  width: 130px;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  padding: 0px, 0px, 0px, 0px;
+}
+.no{
+  color: white;
+  font-family: Hanken Grotesk;
+  font-weight: 800;
+  font-size: 40px;
+}
+.nos{
+  font-size: 10px;
+  color: rgba(235, 241, 255, 0.6);
+}
+.result-profiles{
+  color: white;
+  font-family: Hanken Grotesk;
+  font-size: 16px;
+}
+.result-outcome{
+  font-family: Hanken Grotesk;
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.result-words{
+  width: 190px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+}
+.summary{
+  padding: 20px 0px 20px 0px;
+  font-family: Hanken Grotesk;
+  font-weight: 500;
+  font-size: 18px;
+}
+.reaction{
+  font-family:Hanken Grotesk;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 200px;
+  background-color: rgba(255, 87, 87, 0.1);
+  padding: 5px 8px 5px 8px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.memory{
+  font-family:Hanken Grotesk;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 200px;
+  background-color: rgba(255, 176, 31, 0.1);
+  padding: 5px 8px 5px 8px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.verbal{
+  font-family:Hanken Grotesk;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 200px;
+  background-color: rgba(0, 189, 145, 0.1);
+  padding: 5px 8px 5px 8px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.visual{
+  font-family:Hanken Grotesk;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width: 200px;
+  background-color: rgba(17, 37, 212, 0.1);
+  padding: 5px 8px 5px 8px;
+  border-radius: 6px;
+  margin-bottom: 30px;
+}
+.react{
+  margin-left: -45px;
+  display: flex;
+  padding: 0px 0px 4px 0px;
+  color:rgba(255, 87, 87, 0.9) ;
+}
+.num{
+  margin-right: -35px;
+  padding: 0px 0px 4px 0px;
+  font-weight: 700;
+}
+.nums{
+  margin-left: -4px;
+  padding: 0px 0px 4px 0px;
+}
+.mem{
+  margin-left: -45px;
+  display: flex;
+  padding: 0px 0px 4px 0px;
+  color: rgba(255, 176, 31, 1);
+}
+.ver{
+  margin-left: -35px;
+  display: flex;
+  padding: 0px 0px 4px 0px;
+  color: rgba(0, 189, 145, 1);
+}
+.vis{
+  margin-left: -35px;
+  display: flex;
+  padding: 0px 0px 4px 0px;
+  color: rgba(17, 37, 212, 1);
+}
+.continue{
+  padding: 10px 80px 10px 80px;
+  border-radius: 60px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(48, 59, 90);
+  color: white;
+  font-family: Hanken Grotesk;
+}
+.continue:hover{
+  background-image: linear-gradient(to top,hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
